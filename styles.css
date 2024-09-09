@@ -1,0 +1,85 @@
+header {
+    width: 33%;
+}
+.autor-fecha {
+    display: flex;
+}
+a {
+    display: flex;
+    align-items: center;
+}
+
+.icono-facebook{
+    width: 22%;
+    margin-right: 0.5rem;
+}
+.icono-correo{
+    width: 11%;
+    margin-right: 0.5rem;
+}
+
+.icono-twitter{
+    width: 23%;
+    margin-right: 0.5rem;
+}
+.icono-imprimir{
+    width: 33%;
+    margin-right: 0.5rem;
+}
+.botones-compartir {
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.seccion-compartir {
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    color: gray;
+}
+.link-autor {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    margin-right: 2rem;
+}
+.compartir {
+    text-decoration: none;
+    padding: 6px 9px;
+    color: white;
+    font-size: 10px;
+}
+
+.subtitulo-compartir {
+    margin-top: 0.5rem;
+    margin-right: 3.5rem;
+}
+
+.contenedor-imagen {
+    margin-top: 1rem;
+}
+.facebook {
+    background-color: #4267B2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.correo {
+    background-color: #333;
+}
+
+.imprimir {
+    background-color: gray;
+}
+
+img {
+    width: 115%;
+}
