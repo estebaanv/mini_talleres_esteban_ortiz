@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans';
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    width: 25px;
+    padding: 10px;
+}
+.img-unimarc {
+    width: 155px;
+    padding: 15px;
+    margin-left: 10rem;
+}
+.img-lupa {
+    width: 25px;
+    margin-left: 130px;
+}
+
+img {
+    cursor: pointer;
+}
+.primer-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(96, 96, 96, 0.2); 
+    padding: 10px;
+}
+.categorias-text {
+    margin-right: 40px;
+    font-weight: 500;
+}
+.ofertas {
+    padding: 10px;
+    font-weight: 500;
+}
+.buscador {
+    display: flex;  
+    align-items: center;
+    background-color: rgba(221, 221, 221, 0.2);
+    color: rgba(67, 67, 67, 0.7);
+    padding: 8px;
+    border-radius: 22px;
+    margin-right: 15px;
+}
+.saludos {
+    display: inline-block;
+    border-right: 1px solid rgba(96, 96, 96, 0.2);
+    padding-right: 45px; 
+}
+.mis-compras {
+    margin: 0px 25px 0px 35px;
+    font-weight: 500;
+}
+.img-carrito {
+    width: 25px;
+}
+.segundo-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(96, 96, 96, 0.2); 
+    padding: 15px;
+}
+
+.icono-ubicacion {
+    width: 20px;
+}
+.donde-recibir-compra {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+.icono-flecha {
+    width: 10px;
+}
+.donde-recibir-compra span {
+    margin: 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.links a {
+    margin-right: 25px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400px;
+}
+.compras {
+    width: 1100px;
+    height: 100vh;
+    margin: 50px auto;
+}
+.celebra-el-18 {
+    color: red;
+}
+.link-inicio {
+    color: rgb(120, 120, 120);
+}
+.ruta {
+    font-size: 14px;
+}
+.titulo {
+    font-weight: 500;
+    font-size: 25px;
+}
+.resultados-cantidad {
+    color: rgb(113, 113, 113);
+}
+.titulo-contenedor {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(96, 96, 96, 0.2); 
+}
+.categorias-seccion span {
+    margin: 2px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 22px;
+    font-size: 14px;
+}
+.categorias-seccion {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+}
+.todos-text {
+    background-color: black;
+    color: white;
+}
+.seccion-ordenar img{
+    width: 15px;
+}
+.seccion-ordenar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.num {
+    margin: 15px;
+}
+.izquierda {
+    display: flex;
+    align-items: center;
+
+}
+.ordenar-por {
+    color: rgb(96, 96, 96);
+    padding-right: 10px;
+    border-right: 1px solid rgba(96, 96, 96, 0.2);
+}
+.recomendados-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.filtrar-seccion img {
+    width: 15px;
+}
+
+.categorias-filtrar {
+    display: grid;
+    gap: 55px;
+    width: 225px;
+}
+
+.categorias-filtrar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+}
+.filtrar-seccion {
+    display: flex;
+}
+.productos img {
+    width: 150px;
+} 
+.oferta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.fiestas-patrias {
+    color: white;
+    background-color: rgb(210, 18, 18);
+    width: 85px; 
+}
+.exclusivo-internet {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 221, 149);
+    width: 85px; 
+}
+.info {
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+}
+.productos {
+    display: flex; 
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+.producto {
+    display: grid;
+    padding: 10px;
+}
+
+.descuento-producto {
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px;
+}
+.valor-unitario{
+    font-size: 13px;
+    color: rgb(152, 152, 152);
+}
+.nuevo-precio{
+    font-size: 19px;
+    color: rgb(189, 1, 1);
+}
+.antiguo-valor {
+    font-size: 16px;
+    text-decoration: line-through; 
+    color: rgb(152, 152, 152); 
+}
+.antiguo-valor-unitario {
+    font-size: 12px;
+    text-decoration: line-through; 
+    color: rgb(152, 152, 152); 
+}
